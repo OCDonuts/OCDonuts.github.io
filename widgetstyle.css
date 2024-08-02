@@ -1,8 +1,8 @@
 .progress--container {
     display:none;
 }
-
-#pledgeCampaignDetails {
-    display: none;
+.mpp-innerpage {
+    opacity: 0;
 }
+
 
