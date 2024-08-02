@@ -10,3 +10,6 @@
 .mpp-card-multiselect--checkbox-small span {
     display: none;
 }
+#customFormTitle {
+    display: none;
+}
