@@ -7,3 +7,6 @@
 .mpp-card-multiselect--checkbox-small {
     display: none;
 }
+.mpp-card-multiselect--checkbox-small span {
+    display: none;
+}
