@@ -4,3 +4,6 @@
 .mpp-updatemyinfo--checkboxlabel {
     display: none;
 }
+.mpp-card-multiselect--checkbox-small {
+    display: none;
+}
