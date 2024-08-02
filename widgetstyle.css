@@ -1,13 +1,7 @@
 .progress--container {
     display:none;
 }
-// JavaScript to add a class to the <div> with specific text content
-document.querySelectorAll('div').forEach(function(div) {
-    if (div.textContent.trim() === 'pledgecampaigndetails') {
-        div.classList.add('hide-me');
-    }
-});
-.hide-me {
+#pledgeCampaignDetails {
     display: none;
 }
 
