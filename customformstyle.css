@@ -1,3 +1,6 @@
 #updateMyInfoContainer {
     display: none;
 }
+.mpp-updatemyinfo--checkboxlabel {
+    display: none;
+}
