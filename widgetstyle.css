@@ -1,8 +1,11 @@
 .progress--container {
     display:none;
 }
-.mpp-innerpage {
-    opacity: 0;
-}
+// JavaScript to add a class to the <div> with specific text content
+document.querySelectorAll('div').forEach(function(div) {
+    if (h2.textContent.trim() === 'pledgecampaigndetails') {
+        h2.classList.add('hide-me');
+    }
+});
 
 
