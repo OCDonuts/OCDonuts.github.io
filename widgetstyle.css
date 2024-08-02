@@ -9,7 +9,7 @@ document.querySelectorAll('h2').forEach(function(h2) {
     }
 });
 
-.hide-me {
+.mp-innerpage {
     display: none;
 }
 
