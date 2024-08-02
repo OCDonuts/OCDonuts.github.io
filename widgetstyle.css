@@ -9,7 +9,10 @@ document.querySelectorAll('h2').forEach(function(h2) {
     }
 });
 
-.mp-innerpage {
+.hide-me {
     display: none;
 }
 
+h2[data-text="Progress"] {
+    display: none;
+}
