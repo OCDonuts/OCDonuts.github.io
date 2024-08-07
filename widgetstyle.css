@@ -4,3 +4,12 @@
 #pledgeCampaignDetails {
     display: none;
 }
+/* Hide the <h3> element with the text 'Personal Details' */
+h3 {
+    display: none;
+}
+
+/* Hide the entire div section with class 'form--row' */
+.form--row {
+    display: none;
+}
