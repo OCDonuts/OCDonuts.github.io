@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Loop through the options to find the one with the specific text
     options.forEach(function(option) {
         if (option.textContent.trim() === "Lloyd, Gabriel") {
-            option.remove(); // Remove the option from the DOM
+            option.classList.add('hide-me'); // Add class to hide the option
         }
     });
 });
