@@ -8,3 +8,7 @@
 select#mppw-form-field__control {
     display: none;
 }
+/* Hide the option with the value '192266' */
+select option[value="192266"] {
+    display: none;
+}
