@@ -4,10 +4,16 @@
 #pledgeCampaignDetails {
     display: none;
 }
-// Select the option element with an empty value
-var optionToHide = document.querySelector('#mySelect option[value=""]');
-
-// Hide the option using CSS directly in JavaScript
-if (optionToHide) {
-    optionToHide.style.display = 'none';
+/* This will hide the option with the class 'hide-me' */
+select option.hide-me {
+    display: none;
 }
+document.addEventListener("DOMContentLoaded", function() {
+    // Select the <option> element with an empty value
+    var optionToHide = document.querySelector('select option[value=""]');
+    
+    // Add the class 'hide-me' to the option to hide it
+    if (optionToHide) {
+        optionToHide.classList.add('hide-me');
+    }
+});
