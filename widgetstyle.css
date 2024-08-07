@@ -8,14 +8,4 @@
 h3 {
     display: none;
 }
-// Wait for the DOM to fully load
-document.addEventListener("DOMContentLoaded", function() {
-    // Select the <select> element by its ID
-    var selectElement = document.getElementById("applyAs");
 
-    // Check if the element exists before trying to remove it
-    if (selectElement) {
-        // Remove the <select> element from its parent
-        selectElement.parentNode.removeChild(selectElement);
-    }
-});
