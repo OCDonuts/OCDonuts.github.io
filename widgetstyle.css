@@ -8,11 +8,6 @@
 h3 {
     display: none;
 }
-
-/* Hide the entire div section with class 'form--row' */
-.form--row {
-    display: none;
-}
 // Wait for the DOM to fully load
 document.addEventListener("DOMContentLoaded", function() {
     // Select the <select> element by its ID
