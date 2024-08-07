@@ -4,18 +4,6 @@
 #pledgeCampaignDetails {
     display: none;
 }
-/* This will hide the option with the class 'hide-me' */
-select option.hide-me {
+#contactBlankForm {
     display: none;
 }
-document.addEventListener("DOMContentLoaded", function() {
-    // Get all <option> elements within the <select> element
-    var options = document.querySelectorAll('select option');
-    
-    // Loop through the options to find the one with the specific text
-    options.forEach(function(option) {
-        if (option.textContent.trim() === "Lloyd, Gabriel") {
-            option.classList.add('hide-me'); // Add class to hide the option
-        }
-    });
-});
