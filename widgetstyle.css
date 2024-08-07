@@ -16,7 +16,4 @@ select option[value="192266"] {
 .mppw-form-field__control {
     display: none;
 }
-/* Hide the element with the specific ID 'contactBlankForm' */
-#contactBlankForm {
-    display: none;
-}
+
