@@ -3,7 +3,12 @@
 }
 #pledgeCampaignDetails {
     display: none;
+/* Hide the option with an empty value */
+select option[value=""] {
+    display: none;
 }
-#firstname {
+
+/* Hide the option with the value '192266' */
+select option[value="192266"] {
     display: none;
 }
