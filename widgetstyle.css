@@ -4,3 +4,6 @@
 #pledgeCampaignDetails {
     display: none;
 }
+.mppw-form-field mppw-form-field__static-container {
+    display: none;
+}
