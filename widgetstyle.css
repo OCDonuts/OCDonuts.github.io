@@ -12,3 +12,7 @@ select#mppw-form-field__control {
 select option[value="192266"] {
     display: none;
 }
+/* Hide the <input> element by its ID */
+#FirstName {
+    display: none;
+}
