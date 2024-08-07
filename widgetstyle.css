@@ -9,11 +9,13 @@ select option.hide-me {
     display: none;
 }
 document.addEventListener("DOMContentLoaded", function() {
-    // Select the <option> element with an empty value
-    var optionToHide = document.querySelector('select option[value=""]');
+    // Get all <option> elements within the <select> element
+    var options = document.querySelectorAll('select option');
     
-    // Add the class 'hide-me' to the option to hide it
-    if (optionToHide) {
-        optionToHide.classList.add('hide-me');
-    }
+    // Loop through the options to find the one with the specific text
+    options.forEach(function(option) {
+        if (option.textContent.trim() === "Lloyd, Gabriel") {
+            option.remove(); // Remove the option from the DOM
+        }
+    });
 });
