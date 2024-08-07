@@ -12,8 +12,7 @@ select#mppw-form-field__control {
 select option[value="192266"] {
     display: none;
 }
-/* Hide all input fields with class 'mppw-form-field__control' */
-.mppw-form-field__control {
+/* Hide the element with the specific ID 'contactBlankForm' */
+#contactBlankForm {
     display: none;
 }
-
