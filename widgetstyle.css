@@ -4,8 +4,3 @@
 #pledgeCampaignDetails {
     display: none;
 }
-/* Hide the <h3> element with the text 'Personal Details' */
-h3 {
-    display: none;
-}
-
