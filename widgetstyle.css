@@ -3,12 +3,8 @@
 }
 #pledgeCampaignDetails {
     display: none;
-/* Hide the option with an empty value */
-select option[value=""] {
-    display: none;
 }
-
-/* Hide the option with the value '192266' */
-select option[value="192266"] {
+/* Hide the <select> element with class 'mppw-form-field__control' and id 'applyAs' */
+select#mppw-form-field__control {
     display: none;
 }
