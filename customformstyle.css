@@ -1,15 +1,4 @@
-#updateMyInfoContainer {
-    display: none;
-}
-.mpp-updatemyinfo--checkboxlabel {
-    display: none;
-}
-.mpp-card-multiselect--checkbox-small {
-    display: none;
-}
-.mpp-card-multiselect--checkbox-small span {
-    display: none;
-}
+
 #customFormTitle.mpp-mt-0 {
     display: none;
 }
